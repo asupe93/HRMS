@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 
 driver = webdriver.Chrome()
-driver.get("https://dvpro.co.in/projects")
+driver.get(https://orangehrm.com/")
 
 driver.maximize_window()
 time.sleep(5)
