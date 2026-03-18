@@ -6,7 +6,7 @@ import time
 
 # browser open
 driver = webdriver.Chrome()
-driver.get("https://dvpro.co.in/calendar")
+driver.get("https://orangehrm.com/")
 driver.maximize_window()
 
 wait = WebDriverWait(driver, 10)
