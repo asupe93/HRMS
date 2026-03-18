@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome()
-driver.get("https://dvpro.co.in/")
+driver.get("https://orangehrm.com/")
 
 driver.maximize_window()
 wait = WebDriverWait(driver, 10)
@@ -16,13 +16,13 @@ print("Test Started 🚀")
 email = wait.until(
     EC.visibility_of_element_located((By.XPATH, "//input[@type='email']"))
 )
-email.send_keys("tester@dustvalue.com")
+email.send_keys("tester@gmail.com")
 
 # password
 password = wait.until(
     EC.visibility_of_element_located((By.XPATH, "//input[@type='password']"))
 )
-password.send_keys("Dustvalue@123")
+password.send_keys("Test@123")
 
 # 🔥 ENTER press (form submit)
 password.send_keys(Keys.ENTER)
