@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 driver = webdriver.Chrome()
-driver.get("https://dvpro.co.in/calendar")
+driver.get("https://orangehrm.com/")
 
 driver.maximize_window()
 time.sleep(3)
